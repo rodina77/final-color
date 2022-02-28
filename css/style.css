@@ -1,0 +1,202 @@
+.all
+{
+    width: 100%;
+    height: auto;
+    padding-top:30px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 100px;
+}
+.orange
+{
+    width: 250px;
+    height: 370px;
+    flex-direction: column;
+    border-radius: 7px 0px 0px 7px ;
+    background-color: hsl(31, 77%, 52%);
+    border: 1px solid hsl(31, 77%, 52%);
+}
+.blue
+{
+    width: 250px;
+    height: 370px;
+    flex-direction: column;
+    background-color: hsl(184, 100%, 22%);
+    border: 1px solid rgb(0, 105, 112);
+}
+.green
+{
+    width: 250px;
+    height: 370px;
+    flex-direction: column;
+    background-color: hsl(179, 100%, 13%);
+    border: 1px solid hsl(179, 100%, 13%);
+    border-radius: 0px 7px 7px 0px ;
+}
+.fa-circle
+{
+    font-size: 40px;
+    margin-left: 30px;
+    margin-top: 30px;
+    width:15px;
+    font-weight: 700;
+    color:hsla(31, 28%, 43%, 0.589);
+}
+.blue .fa-circle
+{
+    color:hsl(139, 90%, 12%);
+    opacity: 0.3;
+    font-size: 40px;
+    margin-left: 30px;
+    margin-top: 30px;
+    width:15px;
+    font-weight: 700;
+
+}
+.blue .fa-shuttle-van
+{
+    font-size: 30px;
+    color:#26B5C0;
+    opacity: 0.8;
+    padding-top: 25px;
+    font-weight: 900;
+    margin-bottom: 40;
+}
+.fa-car-side
+{
+    font-size: 30px;
+    color:hsl(51, 69%, 83%,0.767);
+    padding-top: 25px;
+    font-weight: 900;
+    margin-bottom: 40;
+}
+.green .fa-circle
+{
+    color:#000;
+    opacity: .201;
+    font-size: 40px;
+    margin-left: 30px;
+    margin-top: 30px;
+    width:15px;
+    font-weight: 700;
+}
+.green .fa-car-side
+{
+    font-size: 30px;
+    color:#19B89D;
+    padding-top: 25px;
+    font-weight: 900;
+    margin-bottom: 40;
+}
+.orange p,.blue p,.green p
+{
+    color:hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    padding: 0px 20px 40px 30px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    
+}
+.orange h1,.blue h1,.green h1
+{
+    padding-top: 8px;
+    padding-left: 30px;
+    font-family: monospace;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
+}
+.orange a,.blue a,.green a
+{
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: white;
+    padding: 8px 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    margin-left: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    width: 90px;
+
+}
+.orange a
+{
+    color:hsl(31, 77%, 52%);
+}
+.blue a
+{
+    color:hsl(184, 100%, 22%);
+}
+.green a
+{
+    color:hsl(179, 100%, 13%);
+}
+
+.orange a:hover
+{
+    background-color:hsl(31, 77%, 52%);
+    color: white;
+}
+.blue a:hover
+{
+    background-color:hsl(184, 100%, 22%);
+    color: white;
+}
+.green a:hover
+{
+    background-color:hsl(179, 100%, 13%);
+    color: white;
+}
+@media(max-width:900px)
+{
+    .all .orange
+    {
+        width: 70%;
+       font-size: 80%;
+        border-radius: 7px 7px 0px 0px;
+    }
+    .all .blue
+    {
+        width: 70%;
+        font-size: 50%;
+    }
+    .all .green
+    {
+        width: 70%;
+        font-size: 80%;
+        border-radius: 0px 0px 7px 7px;
+    }
+}
+@media(max-width:375px)
+{
+    .all .orange
+    {
+        width:90%;
+        font-size: 80%;
+        margin-left: 20px;
+        margin-right: 20px;
+        border-radius: 7px 7px 0px 0px;
+    }
+    .all .blue
+    {
+        width:90%;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 80%;
+    }
+    .all .green
+    {
+        width:90%;
+        border-radius: 0px 0px 7px 7px;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 80%;
+
+    }
+}
